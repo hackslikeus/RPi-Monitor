@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+  <style>
+  .responsive {
+    width: 100%
+    height: auto;
+   }
+  </style>
+  <title>{{ title }}</title>
+
+  <meta name="description" content="Internet Radio MPC client">
+  <meta name="author" content="me">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/e7/ea/108623/1/c300.pnghttps://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/16/Headphone-icon.png">  
+
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <style>
+  .content {
+      margin-top: 10px;
+    }
+
+  </style>
+
+</head>
+
+
+<body class="content" style="max-width:1300px">
+<center>
+<!-- begin playback screen -->
+<div class="container-fluid" style="height:600px">
+    
+      <p>{{ song }}</p>
+    
+<div class="content">
+        <div class="container p-3 my-3" style="background-color:#36454F">
+        <span class="text-white"><font face="Orbitron"></span>
+        <div class="btn-group d-flex" role="group">
+        <div class="col-md-12 text-center">
+             <a href="/volumed" button type="button" class="btn btn-outline-info w-30"><i class="fas fa-volume-down"></i> Volume Down </a>
+             <a href="/stop" button type="button" class="btn btn-outline-warning w-30"><i class="far fa-pause-circle"></i>   Stop   </a>
+             <a href="/volumeu" button type="button" class="btn btn-outline-info w-30"><i class="fas fa-volume-up"></i> Volume Up </a></font>
+        </div>
+        </div>
+  </div>
+  <!-- rightgrid logo and song -->
+  <div class="container">
+         <p><img src= {{ logo }} class="responsive" alt="cheap" style="center"></p>
+         <p>{{ station }}</p>
+         
+       </div>  
+    </div>
+  </div>
+
+</center>
+</body>
+</html>
