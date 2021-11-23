@@ -1,22 +1,26 @@
 id,name,url,descr,logo
-1,Soma – Groove Salad,http://ice2.somafm.com/groovesalad-256-mp3,A nicely chilled plate of ambient/downtempo beats and grooves.,https://somafm.com/img3/groovesalad-400.png
-2,Soma - Lush,http://ice6.somafm.com/lush-128-mp3,Sensuous and mellow vocals mostly female with an electronic influence.,https://somafm.com/img3/lush-400.jpg
-3,Soma - Beat Blender,http://ice6.somafm.com/beatblender-128-mp3,A late night blend of deep-house and downtempo chill.,https://somafm.com/img3/beatblender-400.png
-4,Soma - Heavyweight Reggae,http://ice3.somafm.com/reggae-256-mp3,Reggae Ska Rocksteady classic and deep tracks.,https://somafm.com/img3/reggae400.png
-5,Soma - Underground 80's,http://ice4.somafm.com/u80s-256-mp3,Early 80s UK Synthpop and a bit of New Wave.,https://somafm.com/img3/u80s-400.png
+1,Soma – Groove Salad,http://ice2.somafm.com/groovesalad-256-mp3,downtempo beats and grooves.,https://somafm.com/img3/groovesalad-400.png
+2,Soma - Lush,http://ice6.somafm.com/lush-128-mp3,Sensuous and mellow vocals,https://somafm.com/img3/lush-400.jpg
+3,Soma - Beat Blender,http://ice6.somafm.com/beatblender-128-mp3,deep-house and downtempo chill.,https://somafm.com/img3/beatblender-400.png
+4,Soma - Heavyweight Reggae,http://ice3.somafm.com/reggae-256-mp3,Reggae Ska Rocksteady ,https://somafm.com/img3/reggae400.png
+5,Soma - Underground 80's,http://ice4.somafm.com/u80s-256-mp3,Early 80s UK Synthpop and other crap,https://somafm.com/img3/u80s-400.png
 6,Soma – Bagel Radio,http://ice2.somafm.com/bagel-128-mp3, What alternative rock radio should sound like.,https://somafm.com/img3/bagel-400.png
 7,Soma - Indie Pop Rocks,http://ice2.somafm.com/indiepop-128-mp3,New and classic favorite indie pop tracks.,https://somafm.com/img3/indiepop-400.png
-8,Radio Swiss Jazz,https://stream.srg-ssr.ch/m/rsj/mp3_128, Basel's Laid Back Jazz,https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Radio_Swiss_Jazz_Logo_2018.svg/768px-Radio_Swiss_Jazz_Logo_2018.svg.png
-9,ChillTrax,http://server1.chilltrax.com:9000/,Ambient Chill,https://www.chilltrax.com/images/specialty/default-album-cover.png
-10,Lounge-Radio,http://nl1.streamhosting.ch/,Switzerland Chill,https://lounge-radio.com/images/lounge-radio.com.png
-11,Soma - Illinois Street Lounge,http://ice4.somafm.com/illstreet-128-mp3,Classic bachelor pad playful exotica and vintage music of tomorrow.,https://somafm.com/img3/illstreet-400.jpg
-12,Scratch Radio,http://www.scratchradio.ca:8000/,Canada's finest Reggae,https://cdn-radiotime-logos.tunein.com/s2575g.png
-13,Soma - Christmas Lounge,http://ice4.somafm.com/christmas-256-mp3,Where Christmas Classics get old and old real fast,https://somafm.com/img3/christmas-400.jpg
-14,Soma – 7 inch Soul,http://ice2.somafm.com/7soul-128-mp3,Vintage soul tracks from the original 45 RPM vinyl. ,https://somafm.com/img3/7soul-400.jpg
-15,Soma – Secret Agent,http://ice4.somafm.com/secretagent-128-mp3,Tunes for spies - Tunes for Pi’s,https://somafm.com/img3/secretagent-400.jpg
-16,Soma – Fluid,http://ice4.somafm.com/fluid-128-mp3,Drown in the electronic sound of instrumental hiphop future soul and liquid trap,https://somafm.com/img3/fluid-400.jpg
-17,Soma – Groove Salad Classic,http://ice2.somafm.com/gsclassic-128-mp3,Salad Drowned and no longer fresh in downtempo beats,https://somafm.com/img3/gsclassic400.jpg
-18,Swiss Classical,http://stream.srg-ssr.ch/m/rsc_de/mp3_128,who knows and who cares,https://www.radioswissclassic.ch/social-media/rsc-web.png
-19,Big Bob Rock,http://streams.radiobob.de/bob-live/mp3-192/vtuner/,i guess if you're gonna rock deutchland rach!,https://www.radiobob.de/_nuxt/icons/icon_512.cUMc34Nz2jc.png
-20,Chill,http://media-ice.musicradio.com/SmoothChill,Smooth Chill from a creepy lady in the UK,https://cdn-profiles.tunein.com/s53084/images/logog.jpg?t=1
-21,The Jazz Groove, http://east-mp3-128.streamthejazzgroove.com/, Laid Back Jazz,https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/e7/ea/108623/1/c300.png
+8,ChillTrax,http://server1.chilltrax.com:9000/,Ambient Chill,https://www.chilltrax.com/images/specialty/default-album-cover.png
+9,Lounge-Radio,http://nl1.streamhosting.ch/,Switzerland Chill,https://lounge-radio.com/images/lounge-radio.com.png
+10,Soma - Illinois Street Lounge,http://ice4.somafm.com/illstreet-128-mp3,old losers sitting in bars passing out to this,https://somafm.com/img3/illstreet-400.jpg
+11,Scratch Radio,http://www.scratchradio.ca:8000/,Canada's finest Reggae,https://cdn-radiotime-logos.tunein.com/s2575g.png
+12,Soma - Christmas Lounge,http://ice4.somafm.com/christmas-256-mp3,Where Christmas Classics get old – and old real fast,https://somafm.com/img3/christmas-400.jpg
+13,Soma – Secret Agent,http://ice4.somafm.com/secretagent-128-mp3,Tunes for spies - Tunes for Pi’s,https://somafm.com/img3/secretagent-400.jpg
+14,The Jazz Groove, http://east-mp3-128.streamthejazzgroove.com/,Laid Back Jazz,https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/e7/ea/108623/1/c300.png
+15,KPJK,http://streaming.radio.co/s9378c22ee/listen,gotta light?,https://www.pngkit.com/png/full/301-3019697_wikispaces-icon-wikispaces-classroom.png
+16,Flux - 80’s,http://streams.fluxfm.de/80er/mp3-320/streams.fluxfm.de/,WTF- Germany -,https://www.radio.net/images/broadcasts/60/c2/105266/2/c100.png
+17,Flux – Rasta,http://streams.fluxfm.de/rastaradio/mp3-320/vtuner/,WTF- Berlin Germany -,https://www.radio.net/images/broadcasts/01/ee/2226/1/c300.png
+18,Flux FM Dub Radio,http://195.154.250.208:8000/stream/12/,WTFmahn- Berlin Germany -,https://www.radio.net/images/broadcasts/01/ee/2226/1/c300.png
+19,Flux FM Lounge,http://streams.fluxfm.de/lounge/mp3-320/vtuner/,Neither hip nor hop- Berlin Germany -,https://www.radio.net/images/broadcasts/78/38/39371/2/c300.png
+20,FluxFM - Jazzradio,http://streams.fluxfm.de/jazzschwarz/mp3-320/vtuner/,- Schwarzenstein  Germany - ,https://www.radio.net/images/broadcasts/01/ee/2226/1/c300.png
+21,Hi On Line - Jazz,http://mediaserv38.live-streams.nl:8006/live,- Jazz - Netherlands -,http://www.hionlineradio.com/wp-content/uploads/2016/07/Jazz-2.jpg
+22,Hi On Line - Lounge,http://mediaserv33.live-streams.nl:8036/live,- Lounge - Netherlands -,http://www.hionlineradio.com/wp-content/uploads/2016/07/Lounge-2.jpg
+23,Jazz24,http://live.wostreaming.net/direct/ppm-jazz24aac256-ibc1,- Jazz - USA - ,https://www.jazz24.org/wp-content/uploads/2019/10/jazz24-768x356.png
+24,SwissGroove,http://158.69.74.203:80/,- Jazz Funk Swiss - ,https://www.swissgroove.ch/images/logo.svg
+25,The Blues Cove,https://radio.streemlion.com:2075/stream,- Toronto  ON Canada -,https://www.radio.net/images/broadcasts/cb/89/131120/1/c300.png
