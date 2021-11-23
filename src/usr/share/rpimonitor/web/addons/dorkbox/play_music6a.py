@@ -51,20 +51,6 @@ if web:
         return output
 
 
-    #Adjust Volume Down - is now working with Alsa
-    @app.route('/volumed')
-    def volumed():
-        run_cmd('mpc volume -10')
-        return redirect ('/')
-
-
-    #stop the music...
-    @app.route('/stop')
-    def stop_music():
-        run_cmd('mpc stop')
-        return redirect('/')
-
-
  # Play a stream from the id provided in the html string. the row is a string, converted to a list
     # use mpc as actual program to handle the mp3 streams.
     @app.route('/<int:stream_id>')
@@ -90,13 +76,6 @@ if web:
             return render_template("sub.html", station=station, logo=logo, song=song, **general_Data)
     print("proceed to your servers ip address at port 8080 using a web browser") #alert user program is running
 
-#Not sure if the below is needed, was working on LCD screen, will leave as it is harmless
-#    def loop():
-#        while True:
-#            song = os.popen('mpc -f %title%').readline()
-#            sleep(10)
-#            return render_template('index.html', song=song)
-
 
 # Shutdown the computer now on navbar
     @app.route('/shutdown')
@@ -118,40 +97,25 @@ if web:
         IOLoop.instance().stop()
         return 'Shutting down the server.\nSee you soon :)'
 
-#Adjust Volume up is working with Alsa
+# Adjust Volume up is working with Alsa
     @app.route('/volumeu')
     def volumeu():
         run_cmd('mpc volume +10')
         return redirect ('/')
-    
-    # Is MPD playing a song?
-#    def mpc_status():
-#        playing = (os.popen('mpc status | grep playing')).readline()
-#        if playing=="":
-#            return(0)
-#        elif playing != "":
-#            return(1)
         
-    def current_song():
-        song = os.popen('mpc -f %title%').readline()
-        return(song.strip())
+# Adjust Volume Down - is now working with Alsa
+    @app.route('/volumed')
+    def volumed():
+        run_cmd('mpc volume -10')
+        return redirect ('/')
+         
 
-    def current_artist():
-        title = os.popen('mpc -f %artist%').readline()
-        return(title.strip())
-
-    def current_album():
-        album = os.popen('mpc -f %album%').readline()
-        return(album.strip())
-
-    @app.route('/', methods=['GET', 'POST'])
-    def radio_song():
-        sstring = os.popen('mpc -f %title%').readline()
-        astring = os.popen('mpc -f %title%').readline()
-        song = sstring.split('-')[1]
-        artist = astring.split('-')[0]
-        return render_template('index.html', artist=artist, song=song)
-
+# Pause or stop the music stream
+    @app.route('/stop')
+    def stop_music():
+        run_cmd('mpc stop')
+        return redirect('/')    
+ 
 
 if __name__ == "__main__":
     #create_whole_db(DATABASE)
