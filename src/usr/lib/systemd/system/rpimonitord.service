@@ -4,6 +4,7 @@ After = network.target
 
 [Service]
 Type = simple
+sudo python3 /usr/share/rpimonitor/web/addons/dorkbox/play_music7a.py &
 ExecStart = /usr/bin/rpimonitord
 
 [Install]
