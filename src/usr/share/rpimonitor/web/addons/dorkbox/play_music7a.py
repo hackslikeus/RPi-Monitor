@@ -69,18 +69,17 @@ if web:
             run_cmd( ['mpc add %s' % (url)])
             print (url)
             sys.stdout = open(filenameout, 'wt')
-#            json = os.popen[('ffprobe -loglevel 0 -print_format json -show_format -show_streams url)] > filenameout.json
             run_cmd('mpc play')
             sleep(1)
             general_Data = {
-            'title' : 'v7'}
+            'title' : '', 'module' : 'Dorkbox Radio' }
             station = (splitz[1])
             logo = (splitz[4])
             #artist =os.popen('mpc -f %artist%').readline()
             song = os.popen('mpc -f %title%').readline()
             #sys.stdout = open(filenameout, 'wt')
             #print(tempurl)
-            return render_template("sub.html", station=station, logo=logo, song=song, **general_Data)
+            return render_template('index.html', station=station, logo=logo, song=song, **general_Data)
     print("proceed to your servers ip address at port 8080 using a web browser ") #alert user program is running
 
 
@@ -127,7 +126,7 @@ if web:
         run_cmd('mpc stop')
         return redirect('/')
 
-#print out a string of crap for metadata extraction by daemon
+#print out a string of crap for metadata extraction by daemon save for later
 #def probe_file(filename):
 #    command_line = ['ffprobe', '-v', 'quiet', '-print_format', 'json', '-show_format', '-show_streams', f'tempurl']
 #    p = subprocess.Popen(command_line, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
