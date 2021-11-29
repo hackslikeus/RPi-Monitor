@@ -1,0 +1,10 @@
+[Unit]
+Description = System monitor for the Raspberry PI
+After = network.target
+
+[Service]
+Type = simple
+ExecStart=/usr/bin/python /usr/share/rpimonitor/web/addons/dorkbox/play_music7a.py &
+
+[Install]
+WantedBy = multi-user.target
